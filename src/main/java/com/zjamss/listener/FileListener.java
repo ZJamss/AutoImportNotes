@@ -73,4 +73,11 @@ public class FileListener extends AbstractFileListener {
                     }
                 });
     }
+
+    @Override
+    public void onFileDelete(File file) {
+        super.onFileDelete(file);
+        if(file.getName().equals("Untitled.md") || !file.getName().contains(".md")) return;
+        MainApplication.noteMap.remove(file.getName().split("\\.")[0]);
+    }
 }
