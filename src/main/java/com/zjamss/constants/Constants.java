@@ -7,7 +7,7 @@ package com.zjamss.constants;
  * @Create: 2022-05-30 20:17
  **/
 public class Constants {
-    public static final String ADMIN_TOKEN = "1f45e10543b943b298237c01a13e3db5";
-    public static final String API_ACCESS_KEY = "vkI0V1dkEKYkCcEFMS7h";
-    public static final String ROOT_DIR = "F:\\studyRecord\\md";
+    public static final String ADMIN_TOKEN = "token";
+    public static final String API_ACCESS_KEY = "key";
+    public static final String ROOT_DIR = "监视的目录";
 }
